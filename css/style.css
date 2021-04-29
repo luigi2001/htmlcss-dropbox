@@ -3,3 +3,90 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*inizio debug*/
+.debug .titolo{
+    height: 50px;
+    background-color: violet;
+    margin: 20px 0;
+}
+.debug #radio-button{
+    height: 30px;
+    background-color: yellow;
+}
+
+.debug .container{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+.debug .box1 .box{
+    width: calc(100% / 3 - 40px);
+    height: 300px;
+    background-color: black;
+}
+.debug #box-Team{
+    height: 300px;
+    background-color: coral;
+}
+
+.debug .titolo-box{
+    height: 40px;
+    background-color: orange;
+}
+
+.debug .partner .img-partner{
+    width: calc(100% / 2 - 40px);
+    background-color: orchid;
+}
+
+.debug .box2 .box{
+    width: calc(100% / 3 - 40px);
+    background-color: palegoldenrod;
+}
+.debug #special{
+    height: 50px;
+}
+ .debug .prova-gratuita{
+     height: 200px;
+     background-color: pink;
+ }
+
+.debug #domande{
+    height: 300px;
+    margin: 20px 0;
+    background-color: salmon;
+}
+
+/*fine debug*/
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    height: 70px;
+    background-color: red;
+}
+
+.img-partner, .box{
+    margin: 20px;
+    float: left;
+    height: 300px;
+}
+
+#jambotrom{
+    height: 800px;
+    background-color: blue;
+}
+
+footer{
+    height: 600px;
+    background-color: black;
+}
+
+
