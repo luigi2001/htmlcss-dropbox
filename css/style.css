@@ -7,8 +7,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.margin{
+    width: 80%;
+    margin: 0 auto;
+}
 /*inizio debug*/
+
+.debug #box-Team .titolo-box{
+    margin: 500px 0;
+}
 
 .debug .container-img{
     width: 15%;
@@ -32,37 +39,9 @@ body{
     left: 15%;
 }
 
-
-.debug .titolo{
-    height: 50px;
-    background-color: violet;
-    margin: 40px 0;
-}
-.debug #radio-button{
-    height: 30px;
-    background-color: yellow;
-}
-
-.debug .container{
-    width: 100%;
-    height: 500px;
-    background-color: green;
-    margin: 50px 0;
-}
-
-.debug .box1 .box{
-    width: calc(100% / 3 - 40px);
-    height: 300px;
-    background-color: black;
-}
 .debug #box-Team{
     height: 300px;
     background-color: coral;
-}
-
-.debug .titolo-box{
-    height: 40px;
-    background-color: orange;
 }
 
 .debug .partner .img-partner{
@@ -70,10 +49,6 @@ body{
     background-color: orchid;
 }
 
-.debug .box2 .box{
-    width: calc(100% / 3 - 40px);
-    background-color: palegoldenrod;
-}
 .debug #special{
     height: 50px;
 }
@@ -133,11 +108,6 @@ ul li a{
     padding: 5px 10px;
 }
 
-
-
-
-
-
 /*fine header*/
 
 /*inizio jambotrom*/
@@ -193,6 +163,108 @@ h1{
 
 /*fine jambotrom*/
 
+/*inizio titolo e radio button*/
+
+.titolo h2{
+    font-size: 40px;
+    margin: 40px 0;
+}
+
+#radio-button{
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+/*fine titolo e radio button*/
+
+/*inizio piani abbonamento*/
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    margin: 50px 0;
+}
+
+.debug .box{
+    width: calc(100% / 3 - 40px);
+    height: 300px;
+    background-color: palegoldenrod;
+}
+
+.titolo-box{
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.paragrafo{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 50px;
+}
+
+.paragrafo h3{
+    font-size: 25px;
+}
+
+.paragrafo h5{
+    color: lightgray;
+}
+
+.descrizione{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.descrizione span{
+    display: inline-block;
+    line-height: 16px;
+}
+
+.descrizione span i{
+    margin-right: 8px;
+}
+
+.paragrafo .button a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.paragrafo .button{
+    margin-top: 40px;
+}
+
+.punti-salienti{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.punti-salienti span{
+    display: inline-block;
+    line-height: 18px;
+}
+
+.punti-salienti ul li{
+    line-height: 18px;
+}
+
+.punti-salienti span i{
+    color: green;
+    margin-right: 10px;
+}
+
+/*fine piani abbonamento*/
+
+
+
 .clearfix::after{
     content: '';
     display: table;
@@ -209,5 +281,4 @@ footer{
     height: 600px;
     background-color: black;
 }
-
 
