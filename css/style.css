@@ -100,6 +100,7 @@ header{
     position: fixed;
     top: 0%;
     left: 0;
+    z-index: 500;
 }
 
 #logo{
@@ -143,31 +144,31 @@ ul li a{
 #jambotrom{
     height: 800px;
     background-color:lightblue;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin-top: 70px;
+    position: relative;
 }
 
 h1{
-    text-align: center;
     font-size: 60px;
-    padding: 20px;
+    padding: 50px;
 }
 
 #paragrafo-button{
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 70%;
-    margin-left: 40px;
+    margin: 20px 40px;
 }
 
 #paragrafo-button a{
     display: block;
     text-decoration: none;
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 16px;
     background-color: blue;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px 5px;
 }
 
 #paragrafo-button h5{
@@ -178,9 +179,16 @@ h1{
     background-color: rgba(254,254,254,0.5);
 }
 
-i{
+#freccia{
     font-size: 50px;
     margin: 20px;
+}
+
+#sfondo{
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    
 }
 
 /*fine jambotrom*/
