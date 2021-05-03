@@ -13,10 +13,6 @@ body{
 }
 /*inizio debug*/
 
-.debug #box-Team .titolo-box{
-    margin: 500px 0;
-}
-
 .debug .container-img{
     width: 15%;
     height: 100%;
@@ -37,11 +33,6 @@ body{
     position: absolute;
     top: 0;
     left: 15%;
-}
-
-.debug #box-Team{
-    height: 300px;
-    background-color: coral;
 }
 
 .debug .partner .img-partner{
@@ -263,6 +254,53 @@ h1{
 
 /*fine piani abbonamento*/
 
+
+/*inizio contatti uffici vendite*/
+
+#titolo-team{
+    height: 40px;
+    width: 100%;
+    margin-top: 550px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+}
+
+#Team #contatti-vendite{
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+#Team #contatti-vendite h3{
+    font-size: 25px;
+
+}
+
+#Team #contatti-vendite h4{
+    margin: 20px 0;
+}
+
+#vendite-button{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+#vendite-button a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*fine contatti uffici vendite*/
+
+/*inizio sezione trova partner*/
+
+
+/*fine sezione trova partner*/
 
 
 .clearfix::after{
