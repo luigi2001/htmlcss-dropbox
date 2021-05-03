@@ -299,6 +299,27 @@ h1{
 
 /*inizio sezione trova partner*/
 
+.partner .Trova-partner{
+    padding: 80px 40px;
+}
+
+.partner .Trova-partner h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.partner .Trova-partner p{
+    line-height: 25px;
+}
+
+.partner .Trova-partner a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 50px 0;
+    border: 1px solid black;
+    padding: 20px;
+}
 
 /*fine sezione trova partner*/
 
