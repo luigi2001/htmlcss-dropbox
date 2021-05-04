@@ -281,7 +281,6 @@ h1{
 .img-partner, .box{
     margin: 20px;
     float: left;
-    height: 300px;
 }
 
 .partner .img-partner{
@@ -472,7 +471,6 @@ h1{
 /*inizio sezione domande frequenti*/
 
 #domande{
-    height: 300px;
     margin: 250px 0;
     line-height: 60px;
 }
